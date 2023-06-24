@@ -13,6 +13,7 @@ import {
   Family,
   Casual,
   Testimonial,
+  Driver,
 } from "../pages";
 
 export const AllRoutes = () => {
@@ -31,6 +32,7 @@ export const AllRoutes = () => {
         <Route path="family" element={<Family />}></Route>
         <Route path="casual" element={<Casual />}></Route>
         <Route path="testimonial" element={<Testimonial />}></Route>
+        <Route path="driver" element={<Driver />}></Route>
       </Routes>
     </div>
   );

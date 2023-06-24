@@ -11,3 +11,4 @@ export { Bridal } from "./Bridal";
 export { Family } from "./Family";
 export { Casual } from "./Casual";
 export { Testimonial } from "./Testimonial";
+export {Driver} from "./Driver"
