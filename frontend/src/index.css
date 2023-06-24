@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app-main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+#navbar a.active {
+  color: #3399cc;
+  /* display: block;
+    background:#3399cc ;
+    color: #fff;
+        
+    border-radius: 5px;
+    margin: 0; */
+}
