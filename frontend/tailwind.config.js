@@ -8,11 +8,13 @@ module.exports = {
     extend: {
       colors: {
         primary: '#3399cc',
-        light: "#dee2e6",
+        "gray-light": "#dee2e6",
+        light: "#ffffff",
         circle: "#B0EF8F",
         check:"#009045",
         shade:"#EDF1F7",
-        card:"#F0F5FC"
+        card:"#F0F5FC",
+        button: "#B21B00"
 
 
         

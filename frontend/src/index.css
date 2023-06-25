@@ -19,7 +19,11 @@
   margin: auto;
   padding: 0 20px;
 }
-
+.container1{
+  max-width: 700px;
+  margin: auto;
+  padding: 0 20px;
+}
 #navbar a.active {
   color: #3399cc;
   /* display: block;
@@ -29,3 +33,15 @@
     border-radius: 5px;
     margin: 0; */
 }
+
+.__grid{
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr auto;
+}
+@media (max-width: 640px) and (min-width: 500px){
+  .__grid{
+    grid-template-columns: 1fr;
+  }
+  
+} 
