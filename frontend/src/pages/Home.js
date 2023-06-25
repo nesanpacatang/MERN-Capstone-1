@@ -28,7 +28,7 @@ import { NavLink } from "react-router-dom";
 export const Home = () => {
   return (
     <div>
-      <div className="container1 mx-auto absolute top-24 sm:inset-24 md:inset-28 lg:inset-28 lg:right-10 z-10 mt-20  text-white">
+      <div className="container2 mx-auto absolute top-24 sm:inset-24 md:inset-28 lg:inset-28 lg:right-10 z-10 mt-20  text-white">
         
         <div className="px-10 ">
           <p className="sm:text-3xl md:text-4xl lg:text-7xl font-bold">CarGo:</p>

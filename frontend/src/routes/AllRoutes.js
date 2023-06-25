@@ -15,7 +15,8 @@ import {
   Driver,
   SignIn,
   SignUp,
-  FinalDetails
+  FinalDetails,
+  BookingConfirm
 } from "../pages";
 
 export const AllRoutes = () => {
@@ -37,6 +38,7 @@ export const AllRoutes = () => {
         <Route path="driver" element={<Driver />}></Route>
         <Route path="signup" element={<SignUp />}></Route>
         <Route path="finaldetails" element={<FinalDetails />}></Route>
+        <Route path="bookingconfirm" element={<BookingConfirm />}></Route>
       </Routes>
     </div>
   );

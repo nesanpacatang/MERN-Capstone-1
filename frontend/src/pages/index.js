@@ -13,3 +13,4 @@ export {Driver} from "./Driver";
 export { SignIn } from "./SignIn";
 export {SignUp} from "./SignUp";
 export {FinalDetails} from "./FinalDetails"
+export {BookingConfirm} from "./BookingConfirm"
