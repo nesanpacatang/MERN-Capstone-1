@@ -13,8 +13,7 @@ export const FinalDetails = () => {
     if (!isChecked) {
       alert("Please accept the Terms of Service before confirming.");
     } else {
-      // Proceed with the booking confirmation
-      // Add your logic here
+      
       console.log("Booking confirmed!");
       navigate("/bookingconfirm"); // Redirect to the desired page
     }
