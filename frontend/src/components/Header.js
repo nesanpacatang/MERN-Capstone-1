@@ -191,7 +191,7 @@ export const Header = () => {
               </div>
             </li>
 
-            {/* driver */}
+            {/* drivers */}
             <li>
               <NavLink
                 to="driver"
